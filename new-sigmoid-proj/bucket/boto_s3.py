@@ -5,10 +5,10 @@ import boto3
 
 
 
-client = boto3.client('s3', aws_access_key_id ="AKIAWIKXAWVHBMAVEZHQ" ,aws_secret_access_key = "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")
+client = boto3.client('s3', aws_access_key_id ="" ,aws_secret_access_key = "")
 
 
-resource = boto3.resource('s3', aws_access_key_id ="AKIAWIKXAWVHBMAVEZHQ", aws_secret_access_key = "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")
+resource = boto3.resource('s3', aws_access_key_id ="", aws_secret_access_key = "")
 
 
 
